@@ -1,4 +1,6 @@
 /**
+ * Clase Rectangulo_NSJ que contiene calculo de área y perímetro
+ * @see Extriende de FiguraGeométrica_NSJ
  * 
  * @author Nuria Sánchez Jordán
  * @version 1.2
@@ -7,9 +9,11 @@
 public class Rectangulo_NSJ extends FiguraGeometrica_NSJ {
 	private double l1;
 	private double l2;
+	
+	
 	/**
 	 * Constructor
-	 * @param tipoFigura forma
+	 * @param tipoFigura
 	 * @param lG lado G
 	 * @param lP lado P
 	 */
@@ -20,6 +24,7 @@ public class Rectangulo_NSJ extends FiguraGeometrica_NSJ {
 	}
 	/**
 	 * Mide el área
+	 * @return el cálculo del área
 	 */
 	@Override
 	public double area() {
@@ -27,6 +32,7 @@ public class Rectangulo_NSJ extends FiguraGeometrica_NSJ {
 	}
 	/**
 	 * Mide el perímetro
+	 * @return el cálculo del perímetro
 	 */
 	@Override
 	public double perimetro() {
