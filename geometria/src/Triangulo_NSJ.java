@@ -20,7 +20,5 @@ public class Triangulo_NSJ extends FiguraGeometrica_NSJ {
 		return Math.sqrt(sp * (sp-lado1) * (sp-lado2) * (sp-lado3));
 	}
 	
-	public double semiPerimetro() {
-		return this.perimetro() / 2;
-	}
+	
 }
