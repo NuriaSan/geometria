@@ -6,6 +6,9 @@ public class Triangulo_NSJ extends FiguraGeometrica_NSJ {
 	
 	public Triangulo_NSJ(String tipoFigura, double lado1, double lado2, double lado3) {
 		super(tipoFigura);
+		lado1 = lado1;
+		lado2 = lado2;
+		lado3 = lado3;
 	}
 
 	@Override
