@@ -7,6 +7,9 @@ public class Circulo_NSJ extends FiguraGeometrica_NSJ {
 	public Circulo_NSJ(double r, String tipoFigura) {
 		super(tipoFigura);
 		radio = r;
+		if (r<0) {
+			radio = radio * -1;
+		}
 	}
 
 	@Override
